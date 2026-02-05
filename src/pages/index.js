@@ -16,12 +16,18 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__bio">
+          Your comprehensive guide to Physical AI, covering robotics, artificial intelligence,
+          and the integration of intelligent systems with the physical world.
+          Learn about ROS 2, simulation environments, AI brain architectures,
+          and vision-language-action systems for autonomous robots.
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            <img src="/img/markhor-icon.svg" alt="Markhor Icon" style={{width: '24px', height: '24px', marginRight: '8px'}} />
-            Textbook - 5min ⏱️
+            <img src="/img/markhor-icon.svg" alt="AI Icon" style={{width: '24px', height: '24px', marginRight: '8px'}} />
+            Start Learning
           </Link>
         </div>
       </div>

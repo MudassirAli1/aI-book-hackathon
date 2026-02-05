@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <!-- Book shape -->
+  <rect x="10" y="10" width="80" height="30" rx="4" fill="#3498db"/>
+  <rect x="15" y="15" width="70" height="20" fill="#ecf0f1"/>
+
+  <!-- Pages -->
+  <rect x="20" y="18" width="60" height="2" fill="#bdc3c7"/>
+  <rect x="20" y="22" width="55" height="2" fill="#bdc3c7"/>
+  <rect x="20" y="26" width="60" height="2" fill="#bdc3c7"/>
+  <rect x="20" y="30" width="50" height="2" fill="#bdc3c7"/>
+
+  <!-- AI circuit symbol -->
+  <path d="M110,25 C110,15 130,15 130,25 C130,35 150,35 150,25 C150,15 170,15 170,25"
+        stroke="#e74c3c" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Neural network nodes -->
+  <circle cx="120" cy="20" r="3" fill="#e74c3c"/>
+  <circle cx="140" cy="25" r="3" fill="#e74c3c"/>
+  <circle cx="160" cy="20" r="3" fill="#e74c3c"/>
+  <circle cx="130" cy="30" r="3" fill="#e74c3c"/>
+
+  <!-- Connecting lines -->
+  <line x1="120" y1="20" x2="140" y2="25" stroke="#e74c3c" stroke-width="1"/>
+  <line x1="140" y1="25" x2="160" y2="20" stroke="#e74c3c" stroke-width="1"/>
+  <line x1="130" y1="30" x2="140" y2="25" stroke="#e74c3c" stroke-width="1"/>
+
+  <!-- Text -->
+  <text x="180" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">AI</text>
+</svg>
