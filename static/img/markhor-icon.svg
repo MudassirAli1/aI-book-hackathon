@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body -->
+  <ellipse cx="50" cy="65" rx="20" ry="15" fill="#4CAF50"/>
+
+  <!-- Head -->
+  <circle cx="70" cy="55" r="12" fill="#4CAF50"/>
+
+  <!-- Ears -->
+  <ellipse cx="65" cy="48" rx="3" ry="5" fill="#4CAF50" transform="rotate(-20 65 48)"/>
+  <ellipse cx="75" cy="48" rx="3" ry="5" fill="#4CAF50" transform="rotate(20 75 48)"/>
+
+  <!-- Horns -->
+  <path d="M63 45 Q58 35 63 25 Q58 20 65 15 Q60 10 70 8 Q65 5 75 6" stroke="#8B4513" stroke-width="2" fill="none"/>
+  <path d="M77 45 Q82 35 77 25 Q82 20 75 15 Q80 10 70 8 Q75 5 65 6" stroke="#8B4513" stroke-width="2" fill="none"/>
+
+  <!-- Eyes -->
+  <circle cx="67" cy="53" r="1.5" fill="#000"/>
+  <circle cx="73" cy="53" r="1.5" fill="#000"/>
+
+  <!-- Legs -->
+  <rect x="40" y="75" width="4" height="10" fill="#4CAF50"/>
+  <rect x="48" y="75" width="4" height="10" fill="#4CAF50"/>
+  <rect x="56" y="75" width="4" height="10" fill="#4CAF50"/>
+  <rect x="64" y="75" width="4" height="10" fill="#4CAF50"/>
+</svg>

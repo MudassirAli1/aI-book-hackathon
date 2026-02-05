@@ -20,6 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
+            <img src="/img/markhor-icon.svg" alt="Markhor Icon" style={{width: '24px', height: '24px', marginRight: '8px'}} />
             Textbook - 5min ⏱️
           </Link>
         </div>
