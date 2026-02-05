@@ -81,8 +81,13 @@ const config = {
             label: 'Textbook',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/MudassirAli1',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/mudassir-ali-6399702b7',
+            label: 'LinkedIn',
             position: 'right',
           },
         ],
@@ -95,24 +100,7 @@ const config = {
             items: [
               {
                 label: 'Textbook',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                to: '/docs/intro/overview-physical-ai',
               },
             ],
           },
@@ -121,12 +109,16 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/MudassirAli1',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/mudassir-ali-6399702b7',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Physical AI Notebook.`,
       },
       prism: {
         theme: prismThemes.github,

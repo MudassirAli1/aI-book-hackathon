@@ -5,51 +5,67 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Introduction to Physical AI',
+    Svg: require('@site/static/img/icon-physical-ai.svg').default,
     description: (
       <>
-        Physical AI concepts made simple and accessible. Learn complex robotics and AI topics with clear explanations and practical examples.
+        Explore the fundamentals of Physical AI. Understand the convergence of artificial intelligence and physical systems,
+        including robotics, sensors, actuators, and real-world interaction.
       </>
     ),
     to: '/docs/intro/overview-physical-ai',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'ROS - Robot Nervous System',
+    Svg: require('@site/static/img/icon-ros-system.svg').default,
     description: (
       <>
-        Concentrate on core concepts of Physical AI, Robotics, and Humanoid Systems while we provide structured learning pathways.
+        Discover ROS 2 as the communication backbone of robotics. Master nodes, topics, services,
+        and parameter systems that connect all robot components.
       </>
     ),
     to: '/docs/ros2/nodes-topics-services',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Digital Twin - Simulation Environments',
+    Svg: require('@site/static/img/icon-digital-twin.svg').default,
     description: (
       <>
-        Interactive learning experience built with modern web technologies. Engage with dynamic content and visualizations.
+        Create digital replicas of physical robots. Master Gazebo and Unity simulations
+        for testing and validating robot behaviors in safe virtual environments.
       </>
     ),
     to: '/docs/digital-twin/gazebo-simulation-basics',
   },
   {
-    title: 'AI & Robotics Integration',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'AI Robot Brain - NVIDIA Isaac',
+    Svg: require('@site/static/img/icon-ai-brain.svg').default,
     description: (
       <>
-        Learn how AI algorithms control robotic systems. From perception to action in autonomous robots.
+        Develop intelligent robot controllers using NVIDIA Isaac. Master SLAM, navigation,
+        and perception systems for autonomous robot operation.
       </>
     ),
     to: '/docs/isaac/isaac-sim-overview',
   },
   {
-    title: 'Real-world Applications',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Vision-Language-Action Systems',
+    Svg: require('@site/static/img/icon-vision-action.svg').default,
     description: (
       <>
-        Apply knowledge to build autonomous humanoid robots. Capstone projects that bring concepts to life.
+        Integrate perception, cognition, and action. Build robots that process visual and linguistic
+        inputs to perform complex real-world tasks autonomously.
+      </>
+    ),
+    to: '/docs/vla/voice-command-to-action',
+  },
+  {
+    title: 'Capstone - Autonomous Humanoid Robot',
+    Svg: require('@site/static/img/icon-capstone.svg').default,
+    description: (
+      <>
+        Synthesize all knowledge into a complete humanoid robot project. Implement full autonomy
+        from perception to action in a physical system.
       </>
     ),
     to: '/docs/capstone/project-overview',
@@ -58,7 +74,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description, to}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div>
       <Link to={to} className={styles.featureCard}>
         <div className="text--center">
           <Svg className={styles.featureSvg} role="img" />
@@ -76,7 +92,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
+        <div className={styles.row}>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
